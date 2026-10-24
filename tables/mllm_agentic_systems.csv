@@ -1,0 +1,19 @@
+System,Year,Mode,Core model,Perception tools / output,Characteristic
+Kosmos-2,2024,D,Kosmos MLLM,Location tokens,Grounded captions with box tokens
+Shikra,2023,D,Vicuna-based,Numeric coordinates in text,Referential dialogue
+Ferret,2024,D,Vicuna-based,Hybrid region representation,Refer and ground at any granularity
+VisionLLM,2023,D,LLM decoder,Task-specific output tokens,LLM as open-ended vision decoder
+Qwen2.5-VL,2025,D,Qwen2.5,Absolute pixel coordinates,Native-resolution grounding
+Rex-Omni,2026,D+RL,Qwen2.5-VL-3B,"1,000 coordinate tokens",SFT + GRPO; strong zero-shot F1
+VLM-R1,2025,RL,Qwen2.5-VL,Boxes in text,IoU-reward GRPO for REC/OVD
+Visual-RFT,2025,RL,Qwen2-VL,Boxes in text,Verifiable rewards for few-shot detection
+DeepEyes,2026,RL+T,Qwen2.5-VL-7B,Zoom-in crop tool,RL learns when to look closer
+Visual ChatGPT,2023,T,ChatGPT,Visual foundation models,Prompt manager routes to experts
+MM-REACT,2023,T,ChatGPT,Vision APIs,ReAct-style multimodal reasoning
+HuggingGPT,2023,T,ChatGPT,Hugging Face models,"Plan, select, execute, respond"
+ViperGPT,2023,T,Codex,"GLIP, X-VLM, depth",Python program synthesis
+VisProg,2023,T,GPT-3,"OWL-ViT, CLIP, etc.",Visual programs with rationales
+Chameleon,2023,T,GPT-4,Heterogeneous tools,Plug-and-play composition
+LLaVA-Plus,2024,T,LLaVA,"Grounding DINO, SAM, etc.",Tool use learned by instruction tuning
+Visual Sketchpad,2024,T,GPT-4o,"Detection, segmentation, drawing",Visual chain of thought
+V*,2024,T,LLaVA-based,Guided visual search,Small objects in high-res images

@@ -1,0 +1,99 @@
+\documentclass[border=4pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{DMSans9pt}[Path=../../fonts/, Extension=.ttf, UprightFont=*-Regular, BoldFont=*-Bold, ItalicFont=*-Italic, BoldItalicFont=*-BoldItalic]
+\setsansfont{DMSans9pt}[Path=../../fonts/, Extension=.ttf, UprightFont=*-Regular, BoldFont=*-Bold, ItalicFont=*-Italic, BoldItalicFont=*-BoldItalic]
+\usepackage{amsmath,amssymb,xcolor,adjustbox,pifont}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,shapes.misc,fit,backgrounds,calc,decorations.pathreplacing,shadows}
+\usepackage[edges]{forest}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+%% ---------- colours and macros used throughout
+\definecolor{cTwo}{HTML}{4C72B0}   % two-stage
+\definecolor{cOne}{HTML}{DD8452}   % one-stage / YOLO
+\definecolor{cDetr}{HTML}{55A868}  % DETR
+\definecolor{cOvd}{HTML}{8172B3}   % open-vocabulary
+\definecolor{cAgent}{HTML}{C44E52} % agentic
+\definecolor{cEdge}{HTML}{937860}  % edge
+\definecolor{cApp}{HTML}{DA8BC3}   % applications
+\definecolor{cData}{HTML}{4C9BB0}  % data / metrics
+\newcommand{\tleaf}[1]{\parbox{8.3cm}{\raggedright #1}}
+\newcommand{\tmid}[1]{\parbox{2.9cm}{\raggedright #1}}
+\newcommand{\tone}[1]{\parbox{2.3cm}{\raggedright #1}}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+\newcommand{\pmark}{$\circ$}
+
+
+\renewcommand{\cite}[1]{}
+\providecommand{\ref}[1]{}
+\renewcommand{\ref}[1]{}
+\newcommand{\tbd}[1]{#1}
+\begin{document}
+\begin{forest}
+for tree={
+  grow'=0, draw, rounded corners=2pt, align=left, font=\scriptsize,
+  anchor=west, child anchor=west, parent anchor=east,
+  edge={draw=black!50, line width=0.5pt},
+  l sep=4mm, s sep=0.8mm, inner xsep=3pt, inner ysep=1.6pt,
+  forked edges,
+},
+where level=0{font=\bfseries\small, fill=black!8, text width=3.0cm, align=center, inner ysep=4pt}{},
+where level=1{font=\bfseries\scriptsize}{},
+where level=3{font=\tiny}{},
+%
+[Object\\detection
+  [{\tone{Closed-set detectors\\}}, fill=cTwo!15, for descendants={fill=cTwo!6}
+    [{\tmid{Two-stage}}
+      [{\tleaf{R-CNN, SPPNet, Fast/Faster R-CNN, R-FCN, FPN, Mask R-CNN, Cascade R-CNN}}]]
+    [{\tmid{Dense one-stage}}
+      [{\tleaf{SSD, RetinaNet, CornerNet, CenterNet, FCOS, ATSS, GFL, VFNet, TOOD, EfficientDet}}]]
+    [{\tmid{YOLO lineage}}
+      [{\tleaf{v1--v4, v5, YOLOX, PP-YOLOE, v6, v7, v8, v9, v10, YOLO11, v12, v13, YOLO26, Mamba YOLO}}]]
+    [{\tmid{Detection transformers}}
+      [{\tleaf{DETR, Deformable DETR, Conditional DETR, DAB-DETR, DN-DETR, DINO, H-DETR, Group DETR, Co-DETR, ViTDet}}]]
+    [{\tmid{Real-time transformers}}
+      [{\tleaf{RT-DETR, RT-DETRv2, RT-DETRv3, LW-DETR, D-FINE, DEIM, DEIMv2, RF-DETR}}]]
+  ]
+  [{\tone{Open-vocabulary detectors\\}}, fill=cOvd!15, for descendants={fill=cOvd!6}
+    [{\tmid{Distillation \& pseudo-labels}}
+      [{\tleaf{OVR-CNN, ViLD, RegionCLIP, Detic, F-VLM, BARON}}]]
+    [{\tmid{Grounded pre-training}}
+      [{\tleaf{GLIP, GLIPv2, DetCLIP, Grounding DINO, MM-GDINO, Grounding DINO 1.5, DINO-X, LLMDet}}]]
+    [{\tmid{ViT \& self-training}}
+      [{\tleaf{OWL-ViT, OWLv2}}]]
+    [{\tmid{Real-time OVD}}
+      [{\tleaf{YOLO-World, YOLOE, WeDetect}}]]
+    [{\tmid{Visual prompts \& unified models}}
+      [{\tleaf{T-Rex2, Florence-2, APE, GLEE, SAM~3}}]]
+  ]
+  [{\tone{MLLM-based \& agentic\\detection}}, fill=cAgent!15, for descendants={fill=cAgent!6}
+    [{\tmid{Direct coordinate generation}}
+      [{\tleaf{Kosmos-2, Shikra, Ferret, VisionLLM, Qwen2.5-VL, Rex-Omni}}]]
+    [{\tmid{RL-tuned grounding}}
+      [{\tleaf{VLM-R1, Visual-RFT, DeepEyes}}]]
+    [{\tmid{Tool-orchestrated perception}}
+      [{\tleaf{Visual ChatGPT, MM-REACT, HuggingGPT, ViperGPT, VisProg, Chameleon, LLaVA-Plus, Visual Sketchpad, V*}}]]
+  ]
+  [{\tone{Edge deployment\\}}, fill=cEdge!15, for descendants={fill=cEdge!6}
+    [{\tmid{Re-parameterisation \& efficient design}}
+      [{\tleaf{RepVGG, MobileNetV2, EfficientViT, RF-DETR NAS}}]]
+    [{\tmid{Quantisation}}
+      [{\tleaf{Integer QAT/PTQ, FP8, SmoothQuant, GPTQ, AWQ, Q-DETR}}]]
+    [{\tmid{Pruning, distillation, sparsity}}
+      [{\tleaf{Deep Compression, Slimming, KD, Sparse DETR, ToMe}}]]
+  ]
+  [{\tone{Applications\\}}, fill=cApp!15, for descendants={fill=cApp!6}
+    [{\tmid{Manufacturing inspection}}
+      [{\tleaf{PatchCore, SimpleNet, WinCLIP, AnomalyCLIP, AnomalyGPT; MVTec AD, VisA, NEU-DET, GC10-DET}}]]
+    [{\tmid{Agriculture}}
+      [{\tleaf{GWHD, DeepWeeds, MinneApple, YOLOWeeds}}]]
+    [{\tmid{Logistics \& retail}}
+      [{\tleaf{SKU-110K, LOCO, RPC}}]]
+    [{\tmid{Aerial \& infrastructure}}
+      [{\tleaf{DOTA, DIOR, VisDrone, SAHI}}]]
+  ]
+]
+\end{forest}
+\end{document}

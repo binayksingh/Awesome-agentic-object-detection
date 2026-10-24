@@ -1,0 +1,5 @@
+Model,Type,COCO F1@0.5,LVIS F1@0.5
+Grounding DINO-T,Grounded detector,69.8,47.7
+Qwen2.5-VL-3B,General MLLM,64.7,55.8
+Qwen2.5-VL-7B,General MLLM,64.0,57.7
+Rex-Omni (3B),Detection-specialised MLLM,72.0,64.3

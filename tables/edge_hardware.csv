@@ -1,0 +1,8 @@
+Platform,Compute,Peak AI throughput,Power,Typical use and toolchain
+Jetson AGX Thor T5000,"Blackwell GPU, 128 GB","2,070 TFLOPS (FP4, sparse)",40-130 W,Detector + on-device MLLM planner; TensorRT
+Jetson AGX Orin 64GB,Ampere GPU (2048 cores),275 TOPS,15-60 W,"Multi-camera inspection, DETR/OVD; TensorRT"
+Jetson Orin NX 16GB,Ampere GPU (1024 cores),100 TOPS (157 Super),10-40 W,"Mobile robots, agricultural vehicles"
+Jetson Orin Nano 8GB,Ampere GPU (1024 cores),40 TOPS (67 Super),7-25 W,Single-camera stations; YOLO/RT-DETR
+Hailo-8,Dataflow NPU (M.2),26 TOPS,2.5 W typ.,INT8 CNN detectors; Hailo compiler
+Coral Edge TPU,ASIC (USB/M.2),4 TOPS,2 W,Fully INT8 static graphs; Edge TPU compiler
+x86/ARM CPU + NPU,"CPU, iGPU, NPU",platform-dependent,5-65 W,"PC-based cells; OpenVINO , ONNX Runtime"

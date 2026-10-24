@@ -1,0 +1,16 @@
+Version,Year,Backbone / neck,Anchors,Assignment,Box loss,Key contribution
+YOLOv1,2016,24-layer CNN,Free (grid),Centre cell,SSE,Single-pass unified detector
+YOLOv2,2017,Darknet-19,k-means,Max IoU,SSE,"BatchNorm, anchor priors, multi-scale training"
+YOLOv3,2018,Darknet-53 + FPN,Anchor,Max IoU,SSE (BCE for classes),Three-scale prediction
+YOLOv4,2020,CSPDarknet53 + SPP + PAN,Anchor,Multi-anchor,CIoU,"Bag of freebies/specials, Mosaic"
+YOLOv5,2020,CSP + PAN,Anchor,Shape-ratio rule,CIoU,"AutoAnchor, PyTorch export ecosystem"
+YOLOX,2021,CSPDarknet + decoupled head,Free,SimOTA,IoU,"Anchor-free, decoupled head"
+YOLOv6,2022,EfficientRep + Rep-PAN,Free,TAL,SIoU/GIoU + VFL,Re-parameterisation for industrial GPUs
+YOLOv7,2023,E-ELAN,Anchor,Lead-guided,CIoU,"Gradient-path design, planned re-param."
+YOLOv8,2023,C2f + PAN,Free,TAL,CIoU + DFL,Unified multi-task framework
+YOLOv9,2024,GELAN + PGI,Free,TAL,CIoU + DFL,Programmable gradient information
+YOLOv10,2024,Compact inverted blocks,Free,Dual (o2m + o2o),CIoU + DFL,"Consistent dual assignment, NMS-free"
+YOLO11,2024,C3k2 + C2PSA,Free,TAL,CIoU + DFL,Efficiency-oriented refinements
+YOLOv12,2025,R-ELAN + area attention,Free,TAL,CIoU + DFL,Attention-centric real-time design
+YOLOv13,2025,HyperACE + FullPAD,Free,TAL,CIoU + DFL,Hypergraph high-order correlation
+YOLO26,2026,"Simplified head, dual heads",Free,STAL (o2m + o2o),"IoU (no DFL), ProgLoss","NMS-free, DFL-free, MuSGD; edge/CPU focus"

@@ -1,0 +1,18 @@
+Dataset,Year,Images,Classes,Labels,Notes
+MVTec AD,2019,"5,354",15,Mask,Unsupervised anomaly detection; 73 defect types
+MVTec LOCO,2022,"3,644",5,Mask,Logical (missing/misplaced parts) and structural anomalies
+VisA,2022,"10,821",12,Mask,"Complex structures, multiple instances (PCBs, capsules)"
+NEU-DET,2013,"1,800",6,Box,Hot-rolled steel strip surface defects
+GC10-DET,2020,"3,570",10,Box,Steel surface defects from production lines
+PCB defects,2019,"1,386",6,Box,"Tiny defects (missing hole, short, spur, ...)"
+DAGM 2007,2007,-,10,Weak,Synthetic textured surfaces
+GWHD,2020,"4,700",1,Box,"Wheat heads from multiple countries; dense, occluded"
+DeepWeeds,2019,"17,509",8 + neg.,Img,"Rangeland weeds; classification, not boxes"
+CottonWeedDet12,2023,"5,648",12,Box,Benchmark of YOLO detectors for weed control
+MinneApple,2020,"1,000",1,"Box, mask",Orchard apples; heavy occlusion
+SKU-110K,2019,"11,762",1,Box,147 objects per image; stress test for NMS
+LOCO,2020,-,5,Box,"Intralogistics: pallets, carriers, forklifts"
+RPC,2019,"83,739",200 SKUs,Box,Retail checkout; single-product exemplars + scenes
+DOTA v1.0,2018,"2,806",15,OBB,"Arbitrary orientation, large scale variation"
+DIOR,2020,"23,463",20,Box,Optical remote sensing
+VisDrone-DET,2022,"10,209",10,Box,Drone imagery; very small objects

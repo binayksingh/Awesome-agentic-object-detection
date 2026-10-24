@@ -1,0 +1,11 @@
+Method,Paradigm,Setting,MVTec AD,VisA
+DRAEM,Reconstruction + discriminator,Full-shot,98.0,-
+Reverse distillation,Teacher-student,Full-shot,98.5,-
+PatchCore,Memory bank,Full-shot,99.1,-
+FastFlow,Normalising flow,Full-shot,99.4,-
+SimpleNet,Feature-space synthesis,Full-shot,99.6,-
+UniAD,Unified multi-class,Full-shot (1 model),96.5,-
+CLIP,Text prompts,Zero-shot,74.1,66.4
+WinCLIP,Window-level CLIP,Zero-shot,91.8,78.1
+APRIL-GAN / VAND,CLIP + linear adapters,Zero-shot,86.1,78.0
+AnomalyCLIP,Object-agnostic prompts,Zero-shot,91.5,82.1

@@ -1,0 +1,13 @@
+Survey,Venue,Year,CNN,YOLO,RT-T,OVD,MLLM,Edge,Ind.,Bench.
+Zhao et al.,TNNLS,2019,yes,yes,no,no,no,partial,no,yes
+Liu et al.,IJCV,2020,yes,partial,no,no,no,partial,no,yes
+Zou et al.,Proc. IEEE,2023,yes,partial,no,no,no,yes,no,partial
+Shehzadi et al.,arXiv,2023,partial,no,partial,no,no,no,no,yes
+Terven et al.,MAKE,2023,partial,yes,no,no,no,partial,partial,yes
+Zhu & Chen,TPAMI,2024,no,no,no,yes,partial,no,no,yes
+Wu et al.,TPAMI,2024,no,no,no,yes,partial,no,no,yes
+Liu et al.,MIR,2024,no,no,no,no,partial,no,yes,yes
+Sapkota et al.,AI Rev.,2025,partial,yes,partial,no,no,partial,yes,partial
+Yao et al.,arXiv,2025,no,no,no,no,yes,no,no,partial
+Xiao et al.,TPAMI,2026,no,no,no,partial,yes,no,no,yes
+Ours,-,2026,yes,yes,yes,yes,yes,yes,yes,yes

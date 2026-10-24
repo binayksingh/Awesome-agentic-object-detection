@@ -1,0 +1,19 @@
+Model,Backbone,Pre-training data,LVIS AP,AP_r,COCO,FPS
+GLIP-T,Swin-T,"O365, GoldG, Cap4M",26.0,20.8,-,5.4*
+GLIP-L,Swin-L,"FourODs, GoldG, Cap24M",37.3,28.2,-,3.1*
+Grounding DINO-T,Swin-T,"O365, GoldG, Cap4M",27.4,18.1,48.4,6.0*
+Grounding DINO-L,Swin-L,"O365, OI, GoldG, Cap4M, COCO, RefC",33.9,22.2,"52.5 (O365, OI, GoldG variant)",2.1*
+Grounding DINO 1.5 Pro,ViT-L,Grounding-20M,55.7,56.1,54.3,-
+DINO-X Pro,ViT-L,Grounding-100M,59.8,63.3,56.0,-
+LLMDet-T,Swin-T,+ GroundingCap-1M,44.7,37.3,-,-
+LLMDet-B,Swin-B,+ GroundingCap-1M,48.3,40.8,-,-
+LLMDet-L,Swin-L,+ GroundingCap-1M,51.1,45.1,-,-
+YOLO-World-S,YOLOv8-S,"O365, GoldG",26.2,19.1,-,74.1*
+YOLO-World-M,YOLOv8-M,"O365, GoldG",31.0,23.8,-,58.1*
+YOLO-World-L,YOLOv8-L,"O365, GoldG",35.0,27.1,-,52.0*
+YOLOE-v8-S,YOLOv8-S,"O365, GoldG",27.9,22.3,-,-
+YOLOE-v8-M,YOLOv8-M,"O365, GoldG",32.6,26.9,-,-
+YOLOE-v8-L,YOLOv8-L,"O365, GoldG",35.9,33.2,-,-
+WeDetect-Tiny,ConvNeXt-T,see WeDetect paper,37.4,33.3,-,62.5*
+WeDetect-Base,ConvNeXt-B,see WeDetect paper,47.3,43.5,-,35.1*
+WeDetect-Large,ConvNeXt-L,see WeDetect paper,55.0,51.1,-,6.0*
