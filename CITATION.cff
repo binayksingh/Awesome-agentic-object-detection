@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the survey below."
+title: "Awesome Agentic Object Detection"
+type: dataset
+authors:
+  - family-names: "SURNAME"
+    given-names: "Shivlata"
+preferred-citation:
+  type: article
+  title: "From YOLO and Faster R-CNN to Open-Vocabulary Agents: A Survey of Object Detection and Applications"
+  authors:
+    - family-names: "SURNAME"
+      given-names: "Shivlata"
+  journal: "Academia AI and Applications"
+  year: 2026
+  notes: "Under review"
