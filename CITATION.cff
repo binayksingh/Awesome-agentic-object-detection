@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the survey below."
+title: "Awesome Agentic Object Detection"
+type: dataset
+authors:
+  - family-names: "Singh"
+    given-names: "Binay Kumar"
+  - family-names: "Chakraborty"
+    given-names: "Somenath"
+  - family-names: "Almalki"
+    given-names: "Ali Jaber"
+repository-code: "https://github.com/binayksingh/Awesome-Agentic-Object-Detection"
+preferred-citation:
+  type: article
+  title: "From YOLO and Faster R-CNN to Open-Vocabulary Agents: A Survey of Object Detection and Applications"
+  authors:
+    - family-names: "Singh"
+      given-names: "Binay Kumar"
+    - family-names: "Chakraborty"
+      given-names: "Somenath"
+    - family-names: "Almalki"
+      given-names: "Ali Jaber"
+  journal: "Academia AI and Applications"
+  year: 2026
+  notes: "Under review"

@@ -1,23 +1,23 @@
 # Awesome Agentic Object Detection [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Last commit](https://img.shields.io/github/last-commit/binayksingh/Awesome-agentic-object-detection) ![Stars](https://img.shields.io/github/stars/binayksingh/Awesome-agentic-object-detection?style=social) ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
+![Last commit](https://img.shields.io/github/last-commit/binayksingh/Awesome-Agentic-Object-Detection) ![Stars](https://img.shields.io/github/stars/binayksingh/Awesome-Agentic-Object-Detection?style=social) ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 A curated, continuously updated list of papers, datasets and benchmarks on **object detection from two-stage CNNs and YOLO to real-time detection transformers, open-vocabulary detectors and MLLM-based agents**, with a focus on **edge deployment** and **industrial, agricultural and logistics applications**.
 
 This repository accompanies the survey:
 
 > **From YOLO and Faster R-CNN to Open-Vocabulary Agents: A Survey of Object Detection and Applications**
-> AUTHORS. *Academia AI and Applications*, 2026 (under review).
-> [Paper](LINK_TO_PAPER) · [Supplementary S1](LINK_TO_SUPPLEMENT)
+> Binay Kumar Singh, Somenath Chakraborty and Ali Jaber Almalki. *Academia AI and Applications*, 2026 (under review).
+> Paper link will be added upon publication.
 
 ## 📌 Citation
 
 If you find this survey or repository useful, please cite:
 
 ```bibtex
-@article{AUTHORKEY2026detectionsurvey,
+@article{singh2026detectionsurvey,
   title   = {From YOLO and Faster R-CNN to Open-Vocabulary Agents: A Survey of Object Detection and Applications},
-  author  = {Binay Kumar Singh, Somenath Chakraborty, Ali Jaber Almalki},
+  author  = {Singh, Binay Kumar and Chakraborty, Somenath and Almalki, Ali Jaber},
   journal = {Academia AI and Applications},
   year    = {2026},
   note    = {Under review}
@@ -26,7 +26,7 @@ If you find this survey or repository useful, please cite:
 
 ## 🔥 News
 
-- **2026-10**: Survey submitted to *Academia AI and Applications*; repository released with 215 papers, 11 benchmark tables and 8 figures.
+- **2026-10**: Survey submitted to *Academia AI and Applications*; repository released with 218 papers, 11 benchmark tables and 8 figures.
 
 ## 🗺️ Overview
 
@@ -136,7 +136,7 @@ Section numbers (Sec. ) refer to the survey. Within each list, papers are sorted
 
 | Year | Title | Authors | Venue | Link |
 |---|---|---|---|---|
-| 2026 | Contextually Enhanced Unknown Aware Contrastive Learning based Co-occurring Object Detection | Singh et al. | IEEE Access | [DOI](https://doi.org/10.1109/ACCESS.2026.3718368) |
+| 2026 | Contextually Enhanced Unknown Aware Contrastive Learning-Based Co-Occurring Object Detection | Singh et al. | IEEE Access | [DOI](https://doi.org/10.1109/ACCESS.2026.3718368) |
 | 2024 | SDLNet: Statistical Deep Learning Network for Co-Occurring Object Detection and Identification | Singh et al. | ICMLT | [DOI](https://doi.org/10.1145/3674029.3674055) |
 | 2018 | Cascade R-CNN: Delving into High Quality Object Detection | Cai et al. | CVPR | [DOI](https://doi.org/10.1109/CVPR.2018.00644) |
 | 2017 | Feature Pyramid Networks for Object Detection | Lin et al. | CVPR | [DOI](https://doi.org/10.1109/CVPR.2017.106) |
@@ -410,6 +410,7 @@ Section numbers (Sec. ) refer to the survey. Within each list, papers are sorted
 | 2024 | Regulation (EU) 2024/1689 Laying Down Harmonised Rules on Artificial Intelligence (Artificial Intelligence Act) | European Parliament et al. | EU regulation | [search](https://scholar.google.com/scholar?q=Regulation+%28EU%29+2024%2F1689+Laying+Down+Harmonised+Rules+on+Artificial+Intelligence+%28Artificial+Intelligence+Act%29) |
 | 2023 | ISO 13849-1:2023 Safety of Machinery – Safety-Related Parts of Control Systems – Part 1: General Principles for Design | International Organization for Standardization | Standard | [search](https://scholar.google.com/scholar?q=ISO+13849-1%3A2023+Safety+of+Machinery+%E2%80%93+Safety-Related+Parts+of+Control+Systems+%E2%80%93+Part+1%3A+General+Principles+for+Design) |
 | 2023 | ISO 3691-4:2023 Industrial Trucks – Safety Requirements and Verification – Part 4: Driverless Industrial Trucks and Their Systems | International Organization for Standardization | Standard | [search](https://scholar.google.com/scholar?q=ISO+3691-4%3A2023+Industrial+Trucks+%E2%80%93+Safety+Requirements+and+Verification+%E2%80%93+Part+4%3A+Driverless+Industrial+Trucks+and+Their+Systems) |
+| 2021 | IEC 62061:2021 Safety of Machinery – Functional Safety of Safety-Related Control Systems | International Electrotechnical Commission | Standard | [search](https://scholar.google.com/scholar?q=IEC+62061%3A2021+Safety+of+Machinery) |
 | 2021 | Multimodal Neurons in Artificial Neural Networks | Goh et al. | Distill | [paper](https://doi.org/10.23915/distill.00030) |
 | 2021 | Tent: Fully Test-Time Adaptation by Entropy Minimization | Wang et al. | ICLR | [search](https://scholar.google.com/scholar?q=Tent%3A+Fully+Test-Time+Adaptation+by+Entropy+Minimization) |
 | 2019 | Benchmarking Neural Network Robustness to Common Corruptions and Perturbations | Hendrycks et al. | ICLR | [search](https://scholar.google.com/scholar?q=Benchmarking+Neural+Network+Robustness+to+Common+Corruptions+and+Perturbations) |
