@@ -17,7 +17,7 @@ If you find this survey or repository useful, please cite:
 ```bibtex
 @article{AUTHORKEY2026detectionsurvey,
   title   = {From YOLO and Faster R-CNN to Open-Vocabulary Agents: A Survey of Object Detection and Applications},
-  author  = {Binay Kumar Singh},
+  author  = {Binay Kumar Singh, Somenath Chakraborty, Ali Jaber Almalki},
   journal = {Academia AI and Applications},
   year    = {2026},
   note    = {Under review}
