@@ -1,6 +1,6 @@
 Dataset,Year,Images,Classes,Labels,Notes
 MVTec AD,2019,"5,354",15,Mask,Unsupervised anomaly detection; 73 defect types
-MVTec LOCO,2022,"3,644",5,Mask,Logical (missing/misplaced parts) and structural anomalies
+MVTec LOCO AD,2022,"3,644",5,Mask,Logical (missing/misplaced parts) and structural anomalies
 VisA,2022,"10,821",12,Mask,"Complex structures, multiple instances (PCBs, capsules)"
 NEU-DET,2013,"1,800",6,Box,Hot-rolled steel strip surface defects
 GC10-DET,2020,"3,570",10,Box,Steel surface defects from production lines

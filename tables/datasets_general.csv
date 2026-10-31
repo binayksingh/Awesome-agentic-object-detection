@@ -1,7 +1,7 @@
 Dataset,Year,Images,Classes,Annotation,Role and notes
 PASCAL VOC,2010,9.9K/11.5K,20,Box,CS; AP@0.5 protocol
 MS COCO,2014,118K/5K,80,"Box, mask",CS; primary real-time benchmark; AP@[.5:.95]
-Objects365,2019,2M (v2),365,Box,PT; standard detector pre-training
+Objects365,2019,1.8M (v2),365,Box,PT; standard detector pre-training
 Open Images V4,2020,1.9M,600,"Box, rel.",PT; hierarchical labels
 LVIS v1,2019,120K,"1,203","Box, mask",OV; rare/common/frequent split; minival (~5K)
 OV-COCO,2021,COCO,48+17,Box,OV; AP_50novel
@@ -11,4 +11,4 @@ RF100-VL,2025,100 sets,varies,"Box, instr.","OV; few-shot, multimodal"
 RefCOCO/+/g,2016,20K/20K/26K,-,Box+expr.,GR; REC accuracy@0.5
 Flickr30k Ent.,2015,31.8K,-,Box+phrase,GR; phrase grounding recall
 D3,2023,10K,422 desc.,Box,"GR/OV; negation, absence"
-SA-Co,2026,121K,207K phr.,"Mask, box","OV; concept detection, hard negatives"
+SA-Co,2026,121K (images and videos),207K phr.,"Mask, box","OV; concept detection, hard negatives"
